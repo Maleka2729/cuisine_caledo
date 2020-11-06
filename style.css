@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.parallax_1 {
+    /* The image used */
+    background-image: url("images/plats.webp");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#welcome,
+#plats,
+#desserts {
+    font-size: 70px;
+}
+
+.titre {
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color: #f5deb399;
+}
+
+#titre_1{
+    top: 40vh;
+}
+
+#articles {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.parallax_2{
+    /* The image used */
+    background-image: url("images/marche.webp");
+
+    /* Set a specific height */
+    min-height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titre_2{
+    top: 25vh;
+}
+
+.parallax_3{
+    /* The image used */
+    background-image: url("images/desserts.webp");
+
+    /* Set a specific height */
+    min-height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titre_3{
+    top: 25vh;
+}
+
+#footer {
+    background-color: #fec89a;
+    padding: 20px;
+}
+
+#article_footer{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    #welcome {
+        font-size: 50px;
+    }
+}
