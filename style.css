@@ -1,7 +1,9 @@
+/*  */
 html {
     scroll-behavior: smooth;
   }
 
+/* Effet parallax pour l'image d'accueil */
 .parallax_1 {
     /* The image used */
     background-image: url("images/plats.webp");
@@ -16,12 +18,14 @@ html {
     background-size: cover;
 }
 
+/* Taille de la police pour les titres */
 #welcome,
 #plats,
 #desserts {
     font-size: 70px;
 }
 
+/* Titres sur les images parallax */
 .titre {
     font-family: 'Pacifico', cursive;
     position: relative;
@@ -30,6 +34,7 @@ html {
     background-color: #f5deb399;
 }
 
+/* size titre 1 */
 #titre_1{
     top: 40vh;
 }
@@ -39,6 +44,7 @@ html {
     padding-bottom: 30px;
 }
 
+/* Effet parallax pour l'image des plats de resistance */
 .parallax_2{
     /* The image used */
     background-image: url("images/marche.webp");
@@ -57,6 +63,7 @@ html {
     top: 25vh;
 }
 
+/* Effet parallax pour l'image des desserts */
 .parallax_3{
     /* The image used */
     background-image: url("images/desserts.webp");
@@ -85,6 +92,7 @@ html {
     padding-bottom: 10px;
 }
 
+/* media query pour l'écran 375px */
 @media screen and (max-width: 375px) {
     #welcome {
         font-size: 50px;
