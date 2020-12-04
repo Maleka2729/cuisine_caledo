@@ -6,7 +6,7 @@ html {
 /* Effet parallax pour l'image d'accueil */
 .parallax_1 {
     /* The image used */
-    background-image: url("images/plats.webp");
+    background-image: url("images/marche.webp");
 
     /* Set a specific height */
     min-height: 100vh;
@@ -47,7 +47,7 @@ html {
 /* Effet parallax pour l'image des plats de resistance */
 .parallax_2{
     /* The image used */
-    background-image: url("images/marche.webp");
+    background-image: url("images/plat-chaud.webp");
 
     /* Set a specific height */
     min-height: 60vh;
