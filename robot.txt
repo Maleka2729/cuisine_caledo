@@ -1,0 +1,3 @@
+User-Agent : *
+Sitemap : https://maleka2729.github.io/cuisine_caledo/sitemap.xml
+Allow : /*
